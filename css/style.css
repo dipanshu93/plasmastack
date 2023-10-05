@@ -125,7 +125,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 5px 25px;
+  padding: 5px 15px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -381,6 +381,7 @@ a:focus {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  height: 365px;
 }
 
 .service_section .box::before {
@@ -870,3 +871,10 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+a.navbar-brand {
+  flex: 0 0 10%;
+  max-width: 10%;
+  margin: 0;
+}
