@@ -878,3 +878,11 @@ a.navbar-brand {
   max-width: 10%;
   margin: 0;
 }
+
+@media only screen and (max-width: 990px) {
+  a.navbar-brand {
+    flex: 0 0 125px;
+    max-width: 125px;
+    margin: 0;
+}
+}
